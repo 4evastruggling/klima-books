@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap');
+
+.navbar {
+    width: 100%;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.lining {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-family: 'PT Serif', serif;
+    margin-right: 75px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.item-link {
+    margin-right: 52px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item-austria{
+    margin-left: auto;
+}
+
+.nav-item-czechia{
+    margin-left: 17px;
+}
+
+.intro-sect {
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+    padding: 117px 0;
+}
+
+.intro-text-block {
+    color: #FFFFFF;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.about-description {
+    display: flex;
+    max-width: 959px;
+    margin: auto;
+}
+
+.photo-about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #404040;
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.menu-simple {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    padding-bottom: 40px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.rights {
+    color: #EAEAEA;
+    text-align: center;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.books-first {
+    background-image: url(../img/books-bg.jpg);
+    background-size: cover;
+    padding: 117px 0;
+}
+
+.book {
+    display: flex;
+    max-width: 959px;
+    margin: auto;
+    margin-bottom: 79px;
+}
+
+.book:last-of-type {
+    margin-bottom: 0;
+}
+
+.book-all {
+    margin: 100px 0;
+}
+
+
+.title{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color:#404040;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    background-color: #888888;
+    height: 1px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.book-description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    color: #404040;
+}
+
+.about-book {
+    margin-left: 40px;
+    color: #404040;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-amazon:before {
+    content: "";
+    background-image: url(../img/Amazon.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.btn-primary {
+    background-color: #FBB06B;
+    border-radius: 0;
+    border-color: #FBB06B;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #F77239;
+    border-color: #F77239;
+}
+
+.btn-thalia:before {
+    content: "";
+    background-image: url(../img/Thalia.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.btn-outline-secondary {
+    border-radius: 0;
+    border-color: #FBB06B;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    color:#FBB06B;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #F77239;
+    border-color: #F77239;
+}
+
+.actual {
+    background-image: url(../img/actual-bg.jpg);
+    background-size: cover;
+    padding: 117px 0;
+}
+
+.texts {
+    max-width: 794px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: left;
+    color: #404040;
+
+}
+
+.contact {
+    background-image: url(../img/contact-bg.jpg);
+    background-size: cover;
+    padding: 117px 0;
+}
+
+.texts-link {
+    color:#FBB06B;
+    font-weight: 700;
+}
+
+.texts-link:hover {
+    color:#F77239;
+}
+
+.back-image {
+    background-image: url(../img/lang-bg.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-grow: 1;
+}
+
+.language-choice {
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.all-languages {
+    padding-left: 110px;
+}
+
+.language-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.language-link:hover {
+    color:#FFFFFF;
+}
+
+.line-after {
+    content: "";
+    display: block;
+    background-color: #888888;
+    height: 1px;
+    width: 400px;
+    text-align: center;
+}
+
+.czech-german {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.language-name {
+    display: inline-block;
+    margin: 35px;
+}
+
+@media (max-width: 992px) {
+    .about-description {
+        flex-direction: column;
+        margin: 30px 0;
+    }
+
+    .inside {
+        text-align: center;
+        color: #404040;
+    }
+
+    .description {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .photo-about {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .lining {
+        flex-wrap: wrap;
+    }
+
+    .item-link, .nav-item-austria, .nav-item-czechia, .about-book {
+        margin: 0;
+    }
+   
+
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .book {
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+
+    .book:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .title {
+        margin-top: 40px;
+    }
+
+    .line-after {
+        width: 200px;
+      
+    }
+
+    .all-languages {
+        padding-left: 15px;
+    }
+
+}
+
